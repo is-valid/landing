@@ -1,10 +1,25 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title></title>
-</head>
-<body>
+﻿.idea/
+build
+node_modules
+npm-debug.log
+.DS_Store
+### Windows template
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
 
-</body>
-</html>
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
