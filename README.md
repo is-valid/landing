@@ -1,1 +1,1 @@
-﻿# lending Omelianenko
+﻿# lаnding Omelianenko
