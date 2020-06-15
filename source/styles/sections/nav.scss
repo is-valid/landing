@@ -1,8 +1,15 @@
 ﻿.nav {
     display: inline-block;
     vertical-align: top;
-    padding-top: 7px;
-    margin-rigt: 15px;
+    margin-left: 165px;
+
+    @media (max-width: 1030px) {
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+
+
 
     &__link {
         display: inline-block;
@@ -13,23 +20,36 @@
         text-transform: capitalize;
         color: #424242;
         transition: 0.3s;
+        font-size: 0.9rem;
+
+
 
         &:hover,
         &--active {
             color: #de2b24;
         }
-        &:after{
-            content:'';
+
+        &:after {
+            content: '';
             display: inline-block;
-            vertical-align:middle;
+            vertical-align: middle;
             width: 5px;
             height: 5px;
-            margin-left:15px;
+            margin-left: 15px;
             border-radius: 50%;
             background: #424242;
-            }
+        }
+
         &:last-child:after {
             display: none;
+        }
+
+        @media (max-width: 419px) {
+            display: block;
+
+            &:after {
+                display: none;
+            }
         }
     }
 }
