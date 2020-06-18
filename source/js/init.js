@@ -1,1 +1,1 @@
-﻿window.Line = {};
+﻿window.fLine = {};

@@ -6,14 +6,14 @@
     if (openFormButton) {
         openFormButton.addEventListener('click', function (e) {
             e.preventDefault();
-            Line.form.open();
+            fLine.form.open();
         })
     }
 
     if (form) {
         form.addEventListener('submit', function (e) {
             e.preventDefault();
-            if (Line.form.isValid()) {
+            if (fLine.form.isValid()) {
                 console.log('All good');
             } else {
                 console.log('Is not valid');
@@ -31,7 +31,7 @@
             }
 
             e.preventDefault();
-            Line.navigation.toggleToActiveLink(target);
+            fLine.navigation.toggleToActiveLink(target);
         });
     }
 

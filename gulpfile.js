@@ -13,7 +13,7 @@ const sourcemaps = require('gulp-sourcemaps');
 gulp.task('server', function () {
     browserSync.init({
         server: {
-           
+            port: 9000,
             baseDir: "build"
         }
     });

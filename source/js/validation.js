@@ -15,5 +15,5 @@
         return Boolean(str);
     };
 
-    Line.validation = me;
+    fLine.validation = me;
 }());

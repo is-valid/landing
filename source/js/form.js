@@ -42,7 +42,7 @@
         var result = true;
 
         for (var i = 0; i < data.length; i++) {
-            if (!Line.validation.isNotEmpty(data[i].value)) {
+            if (!ITVDN.validation.isNotEmpty(data[i].value)) {
                 result = false;
                 break;
             }
@@ -51,5 +51,5 @@
         return result;
     };
 
-    Line.form = me;
+    fLine.form = me;
 }());
